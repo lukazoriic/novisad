@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pocetna {
+  padding: 10rem 2rem;
+}
+h2 {
+  text-align: center;
+  padding: 3rem;
+}
+p {
+  font-size: 17pt;
+  font-weight: 500;
+  padding: 1rem;
+}
+.slike {
+  width: 300px;
+  height: 220px;
+}
+
+@media (max-width: 990px) {
+  body {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+  .slike {
+    width: 300px;
+  }
+}
